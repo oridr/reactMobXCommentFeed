@@ -1,0 +1,51 @@
+{
+  "name": "bigPandaExercise",
+  "version": "1.0.0",
+  "description": "Comment feed based on React, MobX",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "mobx"
+  ],
+  "author": "Ori Drori",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel-core": "6.14.0",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.2.5",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-1": "6.13.0",
+    "eslint": "3.5.0",
+    "eslint-plugin-react": "6.3.0",
+    "node-sass": "^3.10.0",
+    "postcss-loader": "^0.13.0",
+    "react-hot-loader": "3.0.0-beta.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.16.1"
+  },
+  "dependencies": {
+    "md5": "2.2.1",
+    "mobx": "2.5.1",
+    "mobx-react": "3.5.6",
+    "mobx-react-devtools": "4.2.6",
+    "react": "15.3.2",
+    "react-dom": "15.3.2"
+  }
+}
