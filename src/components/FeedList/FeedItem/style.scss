@@ -1,0 +1,30 @@
+.feedItem {
+  position: relative;
+  height: 43px;
+  padding: 0 0 0 52px;
+  list-style: none;
+  font-size: 14px;
+
+  &:not(:last-child) {
+    margin: 0 0 20px 0;
+  }
+
+  &__avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43px;
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  &__email {
+    margin: 7px 0;
+    font-weight: bold;
+    color: #505050;
+  }
+
+  &__label {
+    color: #acacac;
+  }
+}
