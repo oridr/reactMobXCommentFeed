@@ -2,16 +2,28 @@
 	text-align: right;
 
 	&__field {
-		margin: 0 0 12px 0;
 		text-align: left;
+
+		&--email {
+			margin: 0 0 12px 0;
+		}
+
+		&--message {
+			margin: 0 0 8px 0;
+		}
 	}
 
 	&__submit {
-		padding: 11px 12px 11px 14px;
+		padding: 10px 14px 10px 14px;
 		outline: none;
 		border: none;
-		border-radius: 3px;
+		border-radius: 5px;
+		font-size: 11px;
 		background: #40a8df;
 		color: #ffffff;
+
+		&[disabled] {
+			opacity: 0.3;
+		}
 	}
 }
