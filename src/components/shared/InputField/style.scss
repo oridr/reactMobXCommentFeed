@@ -1,0 +1,17 @@
+.inputField {
+	display: block;
+	width: 100%;
+	border: 1px solid currentColor;
+	background: #ffffff;
+	color: #c0c0c0;
+
+	&--single {
+		padding: 0 12px;
+		height: 34px;
+	}
+
+	&--multi {
+		padding: 11px 12px;
+		height: 64px;
+	}
+}
