@@ -1,9 +1,11 @@
+import './style.scss';
+
 import React, { PropTypes } from 'react';
 
 import FeedItem from './FeedItem';
 
 const FeedList = ({ items = [] }) => (
-	<ul>
+	<ul className="feedList">
 		{
 			items.map((item) => (
 				<FeedItem key={ item.email } { ...item } />
