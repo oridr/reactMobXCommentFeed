@@ -1,0 +1,20 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 42px 30px;
+	background: #f9f9f9;
+
+	&__area {
+		padding: 20px 20px 25px 18px;
+	}
+
+	&__commentForm {
+		background: #efefef;
+	}
+
+	&__feed {
+		flex: 1;
+		background: #ffffff;
+	}
+}
