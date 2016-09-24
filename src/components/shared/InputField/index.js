@@ -14,13 +14,16 @@ class InputField extends PureComponent {
 	};
 
 	defaultProps = {
-		value: '',
 		type: 'text',
+		value: '',
 		required: false,
 		multi: false
 	};
 
-	onChange = (event) => this.props.onChange(event.target.name, event.target.value);
+	onChange = (event) => {
+		const input = event.target;
+		this.props.onChange(input.name, input.value, input.checkValidity());
+	};
 
 	render () {
 		const { label, name, value, type, required, multi } = this.props;

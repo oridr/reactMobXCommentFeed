@@ -1,9 +1,17 @@
+$inputColor: #c0c0c0;
+
 .inputField {
 	display: block;
 	width: 100%;
-	border: 1px solid currentColor;
+	border: 1px solid $inputColor;
 	background: #ffffff;
-	color: #c0c0c0;
+	color: $inputColor;
+	outline: none;
+
+	&:-webkit-autofill {
+		box-shadow: 0 0 0 50px white inset;
+		-webkit-text-fill-color: $inputColor;
+	}
 
 	&--single {
 		padding: 0 12px;
@@ -11,7 +19,8 @@
 	}
 
 	&--multi {
-		padding: 11px 12px;
+		padding: 6px 11px;
 		height: 64px;
+		resize: none;
 	}
 }
