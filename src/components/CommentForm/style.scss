@@ -1,0 +1,17 @@
+.commentForm {
+	text-align: right;
+
+	&__field {
+		margin: 0 0 12px 0;
+		text-align: left;
+	}
+
+	&__submit {
+		padding: 11px 12px 11px 14px;
+		outline: none;
+		border: none;
+		border-radius: 3px;
+		background: #40a8df;
+		color: #ffffff;
+	}
+}
