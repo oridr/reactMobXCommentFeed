@@ -7,8 +7,8 @@ import FeedItem from './FeedItem';
 const FeedList = ({ items = [] }) => (
 	<ul className="feedList">
 		{
-			items.map((item) => (
-				<FeedItem key={ item.email } { ...item } />
+			items.map(({ id, email, message }) => (
+				<FeedItem key={ id } email={ email } message={ message } />
 			))
 		}
 	</ul>
